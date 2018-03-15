@@ -1,0 +1,4 @@
+
+RewriteEngine On
+RewriteRule ^$ index.php [L]
+RewriteRule (.*).css index.php?css=$1  [QSA,L]
